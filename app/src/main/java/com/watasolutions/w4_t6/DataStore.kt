@@ -1,6 +1,6 @@
 package com.watasolutions.w4_t6
 
-import com.watasolutions.w4_t6.model.Idol
+import com.watasolutions.w4_t6.model.Image
 
 
 /**
@@ -8,23 +8,56 @@ import com.watasolutions.w4_t6.model.Idol
  */
 
 object DataStore {
-    fun getDataSet(): List<Idol> {
+    fun getDataSet(): List<Image> {
         return listOf(
-            Idol(1, "Nguyen Quang Hai", "Footballer", R.drawable.quanghai),
-            Idol(2, "Bui Tien Dung", "Footballer", R.drawable.buitiendung),
-            Idol(3, "Duy Manh", "Footballer", R.drawable.duymanh),
-            Idol(4, "Cong Phuong", "Footballer", R.drawable.congphuong),
-            Idol(5, "Van Toan", "Footballer", R.drawable.vantoan),
-            Idol(6, "Nguyen Quang Hai 1", "Footballer", R.drawable.quanghai),
-            Idol(7, "Bui Tien Dung 1", "Footballer", R.drawable.buitiendung),
-            Idol(8, "Duy Manh 1", "Footballer", R.drawable.duymanh),
-            Idol(9, "Cong Phuong 1", "Footballer", R.drawable.congphuong),
-            Idol(10, "Van Toan 1", "Footballer", R.drawable.vantoan),
-            Idol(11, "Nguyen Quang Hai 2", "Footballer", R.drawable.quanghai),
-            Idol(12, "Bui Tien Dung 2", "Footballer", R.drawable.buitiendung),
-            Idol(13, "Duy Manh 2", "Footballer", R.drawable.duymanh),
-            Idol(14, "Cong Phuong 2", "Footballer", R.drawable.congphuong),
-            Idol(15, "Van Toan 2", "Footballer", R.drawable.vantoan),
+            Image(
+                36, "Photo 36", "Vadim Sherbakov", "https://picsum" +
+                        ".photos/id/36/200/300"
+            ),
+            Image(
+                37, "Photo 37", "Austin Neill", "https://picsum" +
+                        ".photos/id/37/200/300"
+            ),
+            Image(
+                38, "Photo 38", "Allyson Souza", "https://picsum" +
+                        ".photos/id/38/200/300"
+            ),
+            Image(
+                39, "Photo 39", "Luke Chesser", "https://picsum" +
+                        ".photos/id/39/200/300"
+            ),
+            Image(
+                40, "Photo 40", "Ryan Mcguire", "https://picsum" +
+                        ".photos/id/40/200/300"
+            ),
+            Image(
+                41, "Photo 41", "Nithya Ramanujam", "https://picsum" +
+                        ".photos/id/41/200/300"
+            ),
+            Image(
+                42, "Photo 42", "Luke Chesser", "https://picsum" +
+                        ".photos/id/42/200/300"
+            ),
+            Image(
+                43, "Photo 43", "Oleg Chursin", "https://picsum" +
+                        ".photos/id/43/200/300"
+            ),
+            Image(
+                44, "Photo 44", "Christopher Sardegna", "https://picsum" +
+                        ".photos/id/44/200/300"
+            ),
+            Image(
+                45, "Photo 45", "Alan Haverty", "https://picsum" +
+                        ".photos/id/45/200/300"
+            ),
+            Image(
+                46, "Photo 46", "Jeffrey Kam", "https://picsum" +
+                        ".photos/id/46/200/300"
+            ),
+            Image(
+                47, "Photo 47", "Christopher Sardegna", "https://picsum" +
+                        ".photos/id/47/200/300"
+            ),
         )
     }
 }
