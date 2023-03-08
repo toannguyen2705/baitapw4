@@ -8,7 +8,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.watasolutions.w4_t6"
+        applicationId "com.watasolutions.baitapw6"
         minSdk 21
         targetSdk 31
         versionCode 1

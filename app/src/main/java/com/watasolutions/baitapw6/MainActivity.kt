@@ -1,4 +1,4 @@
-package com.watasolutions.w4_t6
+package com.watasolutions.baitapw6
 
 import android.os.Bundle
 import android.view.View
@@ -8,10 +8,10 @@ import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.watasolutions.w4_t6.adapter.ImageAdapter
-import com.watasolutions.w4_t6.adapter.OnImageItemListener
-import com.watasolutions.w4_t6.databinding.ActivityMainBinding
-import com.watasolutions.w4_t6.model.Image
+import com.watasolutions.baitapw6.adapter.ImageAdapter
+import com.watasolutions.baitapw6.adapter.OnImageItemListener
+import com.watasolutions.baitapw6.databinding.ActivityMainBinding
+import com.watasolutions.baitapw6.model.Image
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding

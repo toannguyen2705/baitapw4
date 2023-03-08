@@ -1,8 +1,8 @@
-package com.watasolutions.w4_t6.adapter
+package com.watasolutions.baitapw6.adapter
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
-import com.watasolutions.w4_t6.model.Image
+import com.watasolutions.baitapw6.model.Image
 
 interface OnImageItemListener {
     fun onClickItem(item: Image)

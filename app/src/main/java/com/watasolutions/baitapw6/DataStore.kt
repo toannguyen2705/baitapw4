@@ -1,11 +1,6 @@
-package com.watasolutions.w4_t6
+package com.watasolutions.baitapw6
 
-import com.watasolutions.w4_t6.model.Image
-
-
-/**
- * Created by nampham on 4/16/21.
- */
+import com.watasolutions.baitapw6.model.Image
 
 object DataStore {
     fun getDataSet(): List<Image> {

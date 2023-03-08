@@ -1,4 +1,4 @@
-package com.watasolutions.w4_t6.adapter
+package com.watasolutions.baitapw6.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,8 +7,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.watasolutions.w4_t6.R
-import com.watasolutions.w4_t6.model.Image
+import com.watasolutions.baitapw6.R
+import com.watasolutions.baitapw6.model.Image
 
 class ImageViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
     companion object {

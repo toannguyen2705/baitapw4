@@ -6,5 +6,5 @@ dependencyResolutionManagement {
         jcenter() // Warning: this repository is going to shut down soon
     }
 }
-rootProject.name = "W4_T6"
+rootProject.name = "baitapw6"
 include ':app'

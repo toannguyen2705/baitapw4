@@ -1,10 +1,10 @@
-package com.watasolutions.w4_t6
+package com.watasolutions.baitapw6
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.watasolutions.w4_t6.model.Image
+import com.watasolutions.baitapw6.model.Image
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
